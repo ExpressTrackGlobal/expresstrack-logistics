@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard - ExpressTrack Logistics</title>
+</head>
 
+<body style="font-family:Arial,sans-serif;background:#f5f5f5;margin:0;">
+
+<header style="background:#003366;color:white;padding:20px;text-align:center;">
+<h1>ExpressTrack Logistics</h1>
+<h3>Administrator Dashboard</h3>
+</header>
+
+<div style="max-width:900px;margin:30px auto;background:white;padding:30px;border-radius:10px;">
+
+<h2>Add New Shipment</h2>
+
+<input type="text" placeholder="Tracking Number (Example: ETL100001)" style="width:100%;padding:12px;margin-bottom:15px;">
+
+<input type="text" placeholder="Customer Name" style="width:100%;padding:12px;margin-bottom:15px;">
+
+<input type="text" placeholder="Current Location" style="width:100%;padding:12px;margin-bottom:15px;">
+
+<select style="width:100%;padding:12px;margin-bottom:15px;">
+<option>Processing</option>
+<option>Package Received</option>
+<option>In Transit</option>
+<option>Out For Delivery</option>
+<option>Delivered</option>
+</select>
+
+<button style="padding:12px 30px;background:#003366;color:white;border:none;border-radius:5px;">
+Save Shipment
+</button>
+
+<hr>
+
+<h2>Shipment Records</h2>
+
+<p>No shipments added yet.</p>
+
+</div>
+
+</body>
+</html>
